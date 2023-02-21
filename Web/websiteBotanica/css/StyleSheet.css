@@ -1,0 +1,781 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital@1&display=swap');
+
+/*======================================================================================================================================================================*/
+
+/*  CONFIGURAÇÕES CSS - ATRIBUTOS GERAIS */
+* {
+    /* a tag com o asterisco seleciona todas as tags do ccs, utilizada para resetar o css evitando bugs */
+    margin: 0; /* retira as margens */
+    padding: 0; /* retira os espaços */
+    box-sizing: border-box;
+    text-decoration: none; /* tira decorações do texto (cores, sublinhados, links azuis etc */
+}
+
+html {
+    height: 100vh
+}
+
+body {
+    font-size: 100%;
+    background-image: linear-gradient(135deg, #9ACD32, #CFCFCF);
+    background-repeat: repeat;
+}
+
+.conteudo {
+    margin-top: 70px;
+}
+
+/*======================================================================================================================================================================*/
+
+/*  CONFIGURAÇÕES CSS - CABEÇALHO / MENU / HEAD */
+
+.cabecalho {
+    display: flex; /* IDE entender que será utilizado flexbox*/
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    background-color: #E8E8E8;
+    width: 100%;
+    border-bottom: 1px solid #458B00;
+}
+
+.cabecalho-logo {
+    height: 50px;
+    margin: 10px;
+}
+
+.logo-menu-hamburguer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cabecalho-menu {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    grid-gap: 1px;
+    flex-direction: row;
+    height: 70px;
+}
+
+.cabecalho-menu-links {
+    height: 100%;
+}
+
+    .cabecalho-menu-links ul {
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+
+    .cabecalho-menu-links li {
+        list-style: none;
+        border-bottom: 1px solid #458B00;
+        border-top: 1px solid #458B00;
+    }
+
+    .cabecalho-menu-links a {
+        display: block;
+        text-decoration: none;
+        padding: 1rem;
+    }
+
+    .cabecalho-menu-links li:hover {
+        color: #363636;
+    }
+
+.botao-menu {
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+}
+
+    .botao-menu .bar {
+        height: 3px;
+        width: 100%;
+        background-color: #363636;
+        border-radius: 10px;
+    }
+
+@media (max-width: 800px) {
+    .cabecalho-menu {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .botao-menu {
+        display: flex;
+    }
+
+    .cabecalho-menu-links {
+        display: none;
+        width: 100%;
+    }
+
+        .cabecalho-menu-links ul {
+            width: 100%;
+            flex-direction: column;
+        }
+
+            .cabecalho-menu-links ul li {
+                text-align: center;
+            }
+
+                .cabecalho-menu-links ul li a {
+                    padding: 1px;
+                }
+
+        .cabecalho-menu-links.active {
+            display: flex;
+        }
+}
+
+.cabecalho-menu-item {
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+    color: #363636;
+    background-color: #E8E8E8;
+}
+
+    .cabecalho-menu-item:hover {
+        color: #008B00;
+    }
+
+/*======================================================================================================================================================================*/
+
+/*  CONFIGURAÇÕES CSS - RODAPÉ / FOOTER */
+
+.rodape {
+    position: fixed;
+    background-color: #E8E8E8;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid #458B00;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    grid-gap: 20px;
+}
+
+.rodape-logo {
+    height: 65px;
+}
+
+.rodape-conteudo {
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.rodape-conteudo-paragrafo {
+    font-family: 'Montserrat', sans-serif;
+    color: #363636;
+    padding: 3px;
+}
+
+@media (max-width: 510px) {
+    .rodape {
+        display: flex;
+        flex-direction: column;
+        grid-gap: 10px;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .rodape-conteudo {
+        font-size: 10px;
+    }
+
+    .rodape-logo {
+        height: 0px;
+    }
+}
+
+/*======================================================================================================================================================================*/
+
+/*  CONFIGURAÇÕES CSS - INDEX / HOME */
+
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    width: 50%;
+}
+
+@media (max-width: 1000px) {
+    .conteudo-principal-escrito {
+        display: flex;
+        flex-direction: column;
+        grid-gap: 10px;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 100px;
+    }
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #4F4F4F;
+}
+
+.conteudo-principal-escrito-boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.separa-texto-imagem {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.imagem-home {
+    height: 100px;
+    margin: 100px;
+}
+
+.conteudo-principal-escrito-texto {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #1C1C1C;
+    text-align:justify;
+}
+
+.conteudo-principal-escrito-botao {
+    display: flex;
+    flex-direction: row;
+    grid-gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnSaibaMais {
+    background-color: #458B00;
+    width: 140px;
+    height: 50px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0,0,0,0.25);
+    border-radius: 20px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+    .btnSaibaMais:hover {
+        background-color: #76EE00;
+    }
+
+
+
+
+
+/*======================================================================================================================================================================*/
+
+/*  CONFIGURAÇÕES CSS - SOBRE A EMPRESA */
+
+
+.imagem-empresa {
+    display: flex;
+    flex-direction: row;
+    grid-gap: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    margin: 20px;
+}
+
+
+
+/*======================================================================================================================================================================*/
+
+/* CONFIGURAÇÕES CSS - LOJA ONLINE */
+
+.loja {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start
+}
+
+.conteudo-principal-loja {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+.loja-cabecalho-menu {
+    display: flex;
+    position: inherit;
+    justify-content: start;
+    align-items: center;
+    grid-gap: 1px;
+    flex-direction: column;
+    background-color: #E8E8E8;
+    height: 100em;
+    width: 100%;
+}
+
+.loja-logo {
+    height: 50px;
+    margin: 20px;
+}
+
+.loja-logo-menu-hamburguer {
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.loja-cabecalho-menu-links {
+    height: 100%;
+    text-align: center;
+}
+
+    .loja-cabecalho-menu-links ul {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+    .loja-cabecalho-menu-links li {
+        list-style: none;
+        border-bottom: 1px solid #458B00;
+        border-top: 1px solid #458B00;
+    }
+
+    .loja-cabecalho-menu-links a {
+        display: block;
+        text-decoration: none;
+        padding: 1rem;
+    }
+
+    .loja-cabecalho-menu-links li:hover {
+        color: #363636;
+    }
+
+.loja-botao-menu {
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+}
+
+    .loja-botao-menu .loja-bar {
+        height: 3px;
+        width: 100%;
+        background-color: #363636;
+        border-radius: 10px;
+    }
+
+@media (max-width: 800px) {
+    .loja-cabecalho-menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .loja-botao-menu {
+        display: flex;
+    }
+
+    .loja-cabecalho-menu-links {
+        display: none;
+        width: 100%;
+    }
+
+        .loja-cabecalho-menu-links ul {
+            width: 100%;
+            flex-direction: column;
+        }
+
+            .loja-cabecalho-menu-links ul li {
+                text-align: center;
+            }
+
+                .loja-cabecalho-menu-links ul li a {
+                    padding: 1px;
+                }
+
+        .loja-cabecalho-menu-links.active {
+            display: flex;
+        }
+}
+
+.loja-cabecalho-menu-item {
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    color: #363636;
+}
+
+    .loja-cabecalho-menu-item:hover {
+        background-color: #7FFF00;
+    }
+
+.dgvProdutos {
+    width: 100%;
+    display: inline-block;
+    padding: 25px;
+    text-align: center;
+    margin: 10px;
+    border-collapse: collapse;
+}
+    .dgvProdutos td {
+        padding: 15px;
+        border: 1px solid black;
+        color: #444;
+        font-size: 20px;
+    }
+
+    .dgvProdutos th {
+        padding: 8px 8px;
+        color: #707083;
+        text-shadow: 1px 1px 0px #ffffff;
+        border: 1px solid black;
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .dgvProdutos.alt {
+        background: linear-gradient(#fff,#e6e6e6);
+    }
+
+@media (max-width: 800px) {
+    .dgvProdutos {
+        display: flex;
+        flex-direction: column;
+        grid-gap: 10px;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+}
+
+.btnLoja {
+    background-color: #458B00;
+    width: 120px;
+    height: 45px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0,0,0,0.25);
+    border-radius: 20px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin:5px;
+}
+
+    .btnLoja:hover {
+        background-color: #76EE00;
+    }
+
+.qtdProdutos {
+    text-align: center;
+}
+
+.btnFechaPedido {
+    background-color: #458B00;
+    width: 170px;
+    height: 45px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0,0,0,0.25);
+    border-radius: 20px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+
+    .btnFechaPedido:hover {
+        background-color: #76EE00;
+    }
+
+.conteudo-principal-carrinho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+/*======================================================================================================================================================================*/
+/* CONFIGURAÇÕES CSS - APLICATIVO */
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #4F4F4F;
+}
+
+.conteudo-aplicativo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+@media (max-width: 1000px) {
+    .conteudo-aplicativo-principal-escrito {
+        display: flex;
+        flex-direction: column;
+        grid-gap: 10px;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 100px;
+    }
+}
+
+.conteudo-aplicativo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.conteudo-aplicativo-escrito-texto {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #1C1C1C;
+}
+
+.conteudo-aplicativo-imagem {
+    height: 300px;
+    margin: 20px;
+    box-shadow: 4px 5px 4px rgba(0,0,0,0.25);
+    border-radius: 5px;
+}
+
+#txtQuantidade {
+    text-align: center;
+    justify-content: center
+}
+
+/*======================================================================================================================================================================*/
+
+/* CONFIGURAÇÕES CSS -  LOGAR */
+
+.campo-login {
+    display: contents;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    margin: 10px;
+    height: 70px;
+    color: #006400;
+    font-weight: bold;
+}
+
+    .campo-login input, .campo-cadastro select {
+        height: 50px;
+        border-radius: 5px;
+        border: solid 1px gray;
+        padding: 5px;
+    }
+
+#LabelResposta {
+    color: red;
+    font-size: 12px;
+}
+
+.BtnLogin {
+    background-color: #363636;
+    width: 160px;
+    height: 100%;
+    border: none;
+    text-align: center;
+    box-shadow: 4px 5px 4px rgba(0,0,0,0.25);
+    border-radius: 20px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+    .BtnLogin:hover {
+        background-color: #76EE00;
+    }
+
+
+/*======================================================================================================================================================================*/
+
+/* CONFIGURAÇÕES CSS - CADASTRO DE CLIENTES */
+
+.cadastro-cliente {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cadastro-cliente-title {
+    text-align: center;
+    margin-top: 15px;
+    color: #363636;
+}
+
+.cadastro-cliente-button {
+    text-align: center;
+}
+
+
+.cadastro-row {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 800px) {
+    .cadastro-row {
+        flex-direction: column;
+    }
+}
+
+.campo-cadastro {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin: 10px;
+    height: 70px;
+    color: #006400;
+    font-weight: bold;
+    font-size:20px;
+}
+
+    .campo-cadastro input, .campo-cadastro select {
+        height: 30px;
+        border-radius: 5px;
+        border: solid 1px gray;
+        padding: 5px;
+    }
+
+    .campo-cadastro .mensagem-erro {
+        color: red;
+        font-size: 15px;
+    }
+
+.cadastro-row-termo {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 800px) {
+    .cadastro-row-termo {
+        flex-direction: column;
+        width: 250px;
+    }
+}
+
+.campo-cadastro-termo {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    height: 90px;
+    color: #006400;
+    font-weight: bold;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
+
+    .campo-cadastro-termo input, .campo-cadastro-termo select {
+        display: flex;
+        align-items: center;
+        align-self: center;
+        height: 30px;
+        border-radius: 5px;
+        border: solid 1px gray;
+        padding: 5px;
+        width: 180px;
+    }
+
+    .campo-cadastro-termo .mensagem-erro {
+        color: red;
+        font-size: 12px;
+    }
+
+#ContentPlaceHolder1_lblTermoSeg {
+    background-color: #363636;
+    width: 100%;
+    height: 70px;
+    border: none;
+    text-align: center;
+    box-shadow: 4px 5px 4px rgba(0,0,0,0.25);
+    border-radius: 20px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+/* botão de finalizar cadastro */
+.BtnCadastroCliente {
+    background-color: #458B00;
+    width: 160px;
+    height: 50px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0,0,0,0.25);
+    border-radius: 20px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+    .BtnCadastroCliente:hover {
+        background-color: #76EE00;
+    }

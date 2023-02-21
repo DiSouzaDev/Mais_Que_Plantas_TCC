@@ -1,0 +1,72 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html" />
+    <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+    <meta name="description" content="Um website sobre consultoria e paisagismo de plantas ornamentais em ambientes internos" />
+    <title>Mais Que Plantas - Consultoria e Paisagismo</title>
+    <link rel="stylesheet" type="text/css" href="css/StyleSheet.css" />
+    <script src="js/JavaScript.js" defer></script>
+    <!-- js do menu -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<body>
+    <form id="form1" runat="server">
+
+        <header class="cabecalho">
+            <nav class="cabecalho-menu">
+                <div class="logo-menu-hamburguer">
+                    <div>
+                        <img class="cabecalho-logo" src="imgs/logo2.png" alt="logo da loja" />
+                    </div>
+                    <div>
+                        <a href="#" class="botao-menu">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="cabecalho-menu-links">
+                    <ul>
+                        <li><a class="cabecalho-menu-item" href="index.aspx">Home</a></li>
+                        <li><a class="cabecalho-menu-item" href="empresa.aspx">Empresa</a></li>
+                        <li><a class="cabecalho-menu-item" href="loja.aspx">Loja Online</a></li>
+                        <li><a class="cabecalho-menu-item" href="aplicativo.aspx">Aplicativo</a></li>
+                        <li><a class="cabecalho-menu-item" href="login.aspx">Logar</a></li>
+                        <li><a class="cabecalho-menu-item" href="cadastroCliente.aspx">Cadastre-se</a></li>
+                        <li><a class="cabecalho-menu-item" href="faq.aspx">FAQ</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+
+        </header>
+
+        <main class="conteudo">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </main>
+
+        <footer class="rodape">
+            <img class="rodape-logo" src="imgs/logo1.png" />
+            <div class="rodape-conteudo">
+                <p class="rodape-conteudo-paragrafo"><strong>Mais Que Plantas</strong> - Consultoria e Paisagismo</p>
+                <p class="rodape-conteudo-paragrafo">Celular / What's app: <strong>(11) 97796-5487</strong></p>
+                <p class="rodape-conteudo-paragrafo">Email: <strong>maisqueplantas@gmail.com</strong></p>
+
+            </div>
+        </footer>
+    </form>
+</body>
+
+</html>
