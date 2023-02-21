@@ -23,12 +23,24 @@ O desenvolvimento da aplicação para web foi voltada para conter as informaçõ
 <img widt="300em" height="300em" src="https://user-images.githubusercontent.com/88636833/220387261-209b3971-e91e-4ea7-b807-ae1acdddf55c.png" />
 </div>
 
+Ferramentas utilizadas:
+- Visual Studio e Visual Studio Code
+
+Linguagens utilizas:
+- Asp.Net
+
 ## Mobile: Android
 A criação de uma aplicação mobile foi voltada para conter informações técnico-científicas sobre o cultivo e manejo de plantas ornamentais, bem como sobre as principais pragas e doenças que as afetam. O usuário também pode cadastrar suas próprias plantas em formato de lista para lembrar quando deve regá-la e os demais cuidados que ela necessitar.
 
 <div align="center">
 <img width="270em" height="420em" src="https://user-images.githubusercontent.com/88636833/220389815-f1cfc166-7200-4eb6-9373-ae3b99155c64.png" />
 </div>
+
+Ferramentas utilizadas:
+- Android Studio e Noteped++
+
+Linguagens utilizas:
+- Java e Asp.Net
 
 ## Desktop
 O desenvolvimento da uma aplicação desktop é voltado para uso interno da empresa, para controle de clientes, funcionários, produtos, vendas, relatórios com dados analíticos de desempenho e dashboard financeiro.
@@ -37,10 +49,26 @@ O desenvolvimento da uma aplicação desktop é voltado para uso interno da empr
 <img width="350em" height="300em" src="https://user-images.githubusercontent.com/88636833/220392097-642aeef2-017c-40f8-bdea-c21d6f96d50d.png" />
 </div>
 
+Ferramentas utilizadas:
+- Visual Studio
+
+Linguagens utilizas:
+- C# (C Sharp)
+
 ## Banco de Dados
 A concepção do Banco de Dados da Mais Que Plantas é de que integre todas as aplicações desenvolvidas e armazene as informações de forma objetiva e organizada.
 
-#Finalização
+<div align="center">
+<img width="300em" height="300em" src="https://user-images.githubusercontent.com/88636833/220397562-323c5f38-c1c3-455c-8d15-1a9ec341b5f7.png" />
+</div>
+
+Ferramentas utilizadas:
+- SQL Server
+
+Linguagens utilizas:
+- SQL
+
+# Finalização
 
 Agradeço a todos os meus colegas de grupo que mostraram dedicação e empenho para entregar o melhor projeto que podiamos, pois nós conseguimos! Nós superamos a pandemia e entregamos um projeto que podemos nos orgulhar.
 
