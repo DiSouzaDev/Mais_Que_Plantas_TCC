@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/plant"
+    tools:context=".MenuUsuario">
+
+    <View
+        android:id="@+id/view5"
+        style="@style/ContainerComponents"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:focusable="false"
+        app:layout_constraintEnd_toEndOf="@+id/lblPlantasOrna"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="@+id/lblPlantasOrna"
+        app:layout_constraintTop_toBottomOf="@+id/imgbtn" />
+
+    <View
+        android:id="@+id/imageView6"
+        style="@style/ContainerComponents"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="12dp"
+        android:focusable="false"
+        app:layout_constraintEnd_toEndOf="@+id/lblMinhas"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="@+id/lblMinhas"
+        app:layout_constraintTop_toBottomOf="@+id/imgbtn2" />
+
+    <View
+        android:id="@+id/imageView7"
+        style="@style/ContainerComponents"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:focusable="false"
+        app:layout_constraintEnd_toEndOf="@+id/lblPragas"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="@+id/lblPragas"
+        app:layout_constraintTop_toBottomOf="@+id/imgbtn1" />
+
+    <ImageButton
+        android:id="@+id/imgbtn"
+        style="@style/Image_Button"
+        android:layout_width="145dp"
+        android:layout_height="135dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/flowers"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lblPlantasOrna"
+        style="@style/Text_View"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Plantas Ornamentais"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/imgbtn"
+        app:layout_constraintStart_toStartOf="@id/imgbtn"
+        app:layout_constraintTop_toBottomOf="@+id/imgbtn" />
+
+    <ImageButton
+        android:id="@+id/imgbtn1"
+        android:layout_width="145dp"
+        android:layout_height="135dp"
+        android:scaleType="fitXY"
+        style="@style/Image_Button"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/jungle_gernnium"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblPlantasOrna" />
+
+    <TextView
+        android:id="@+id/lblPragas"
+        style="@style/Text_View"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Doenças e Pragas"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/imgbtn1"
+        app:layout_constraintStart_toStartOf="@id/imgbtn1"
+        app:layout_constraintTop_toBottomOf="@+id/imgbtn1" />
+
+    <ImageButton
+        android:id="@+id/imgbtn2"
+        android:layout_width="145dp"
+        android:layout_height="135dp"
+        android:scaleType="fitXY"
+        style="@style/Image_Button"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/succulents"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblPragas" />
+
+    <TextView
+        android:id="@+id/lblMinhas"
+        style="@style/Text_View"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Minhas Plantas"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView6"
+        app:layout_constraintEnd_toEndOf="@id/imgbtn2"
+        app:layout_constraintStart_toStartOf="@id/imgbtn2"
+        app:layout_constraintTop_toBottomOf="@id/imgbtn2"
+        app:layout_constraintVertical_bias="0.769" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnDuvidas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:backgroundTint="@color/white"
+        android:src="@drawable/ic_answer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976"
+        app:srcCompat="@drawable/ic_baseline_campaign_24" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">TccMaisQuePlantas</string>
+    <string-array name="Plantas">
+        <item>Afelandra</item>
+        <item>Antúrio</item>
+        <item>Asplênio Ninho de Pássaro</item>
+        <item>Bico de Papagaio</item>
+        <item>Calathea Zebra</item>
+        <item>Castelo de Fada</item>
+        <item>Comigo Ninguém Pode</item>
+        <item>Costela de Adão</item>
+        <item>Croton Amarelo</item>
+        <item>Dracena Chocolate</item>
+        <item>Espada São Jorge</item>
+        <item>Hera Verde</item>
+        <item>Jade Verde</item>
+        <item>Lambari Roxo</item>
+        <item>Lavanda Francesa</item>
+        <item>Lirio da Paz</item>
+        <item>Pacová</item>
+        <item>Peperomia Melancia</item>
+        <item>Peperomia Verde</item>
+        <item>Zamioculca</item>
+    </string-array>
+    <string-array name="NomeCientifico">
+        <item>Aphelandra squarrosa</item>
+        <item>Anthurium andraeanum</item>
+        <item>Asplenium nidus</item>
+        <item>Euphorbia pulcherrima</item>
+        <item>Calathea zebrina</item>
+        <item>Acanthocereus tetragonus</item>
+        <item>Dieffenbachia sp.</item>
+        <item>Monstera deliciosa</item>
+        <item>Codiaeum variegatum</item>
+        <item>Cordyline Terminalis</item>
+        <item>Sansevieria trifasciata</item>
+        <item>Hedera helix</item>
+        <item>Crassula ovata</item>
+        <item>Tradescantia zebrina</item>
+        <item>Lavandula dentata</item>
+        <item>Spathiphyllum sp.</item>
+        <item>Philodendron martianum</item>
+        <item>Peperomia argyreia</item>
+        <item>Peperomia obtusifolia</item>
+        <item>Zamioculcas zamiifolia</item>
+    </string-array>
+    <string-array name="Description">
+        <item>A Afelandra (Aphelandra squarrosa) ou Planta Zebra, tem folhagens e flores de aparência exótica. Seu nome vem das folhas verdes escuras com nervuras de coloração branca, formando um padrão semelhante ao das zebras. Nativa das florestas brasileiras, pode atingir até 40cm de altura.
+Em ambientes internos indica-se o uso de vasos de cerâmica (porosos), diminuindo as chances de apodrecimento das raízes, e rega a cada 2 semanas em média, ou sempre que o substrato estiver completamente seco.
+Adaptada a temperaturas e clima mais quente, acima dos 20ºC, perde suas folhas quando a temperatura fica inferior aos 15ºC. Essa planta consegue viver bem em condições de sol pleno e sombra parcial.
+</item>
+        <item>Os antúrios pertencem a um gênero (Anthurium spp.) de plantas composto por cerca de 1.000 espécies. A maioria das espécies são nativas das florestas tropicais da América Central e do Sul, e precisam de alta umidade e calor para se desenvolverem. Essas plantas atingem de 30cm até 1m de altura e desenvolvem folhas verdes brilhantes e inflorescências coloridas, com as flores amarelas no centro.
+Por ser uma planta de clima tropical, precisa sempre estar próximo a uma janela, porém sem receber luz direta durante muitas horas por dia. A poda pode ser realizada para remover folhas amarelas ou secas e deve ocorrer logo na base da planta.
+</item>
+        <item>Nativa das florestas tropicais da Ásia, África e Austrália, necessita de alta umidade para que se desenvolva adequadamente. Essa planta possui folhas de cor verde claro, longas e de textura serosa, com suas folhas mais novas surgindo do centro da planta, em uma estrutura que se assemelha um ninho de passarinho pequeno, motivo pelo qual a planta recebe seu nome. </item>
+        <item>As plantas dessa espécie são muito populares em épocas festivas, como o Natal, pois por possuírem cor verde e vermelho vibrantes, são utilizadas como forma de decoração. Possuem brácteas, que são folhas coloridas modificadas, que servem para atrair os insetos polinizadores para as pequenas flores amarelas que estão em seu interior.
+São plantas arbustivas que podem ultrapassar 1m de altura quando adultas e plantadas no solo, necessitam de sol pleno e altas temperaturas para seu crescimento ideal. Sua seiva é tóxica e pode causar irritação em contato com a pele ou mucosas.
+</item>
+        <item>A calathea zebra pertence ao gênero de plantas das Calathea spp., e possui folhagem com nervuras brilhantes que contrastam com as suas folhas (verdes, vermelhas ou creme), formando uma textura única. Esse gênero de plantas são nativos da América Central e do Sul, África e Índia, e atualmente diversas espécies híbridas são produzidas em laboratório.
+Sensíveis ao excesso de água, necessitam de solo bem drenado e por serem plantas tropicais se desenvolvem melhor em ambientes de temperatura mais elevadas e luz solar difusa (não direta).
+</item>
+        <item>O aspecto único e o porte relativamente pequeno são características que tornam o cacto castelo de fada ideal para o cultivador iniciante, mas há algumas exigências. Ele precisa de bastante luminosidade para se desenvolver bem. Mas não é necessário mantê-lo sob sol pleno o tempo todo, ele pode ser cultivado dentro de casas e apartamentos, desde que próximo a janelas bem iluminadas.
+O vaso ideal para o cultivo é o de barro, no entanto, também pode ser cultivado em vasos de plástico. O excesso de água é um dos fatores que leva estas plantas à morte certa. Visto que todas as suas estruturas vegetais são capazes de armazenar água, não é necessário regá-las com frequência.
+ </item>
+        <item>Originária da Colômbia e da Costa Rica, a espécie é bastante utilizada na ornamentação de interiores devido a sua tolerância à baixa luminosidade e baixa umidade relativa do ar. Super rústica e resistente, ela é ideal para jardineiros de primeira viajem. O termo “comigo-ninguém-pode” não existe à toa, faz referência à sua toxicidade.
+Por conta de suas propriedades, deve ser mantida fora do alcance de pets e crianças. Para plantar a espécie, a iluminação ideal é a meia-sombra. Ou seja, pode posicioná-la em ambientes internos sem problema algum, mas uma iluminação parcial, mesmo que indireta, ainda se faz necessária. Tolera temperaturas acima de 30°C e o seu cultivo é ideal para locais mais quentes e com alta umidade.
+</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="Doenças">
+        <item>Ácaro Aranha</item>
+        <item>Besouros</item>
+        <item>Cochonilha</item>
+        <item>Ferrugem</item>
+        <item>Fumagina</item>
+        <item>Mildio Verdadeiro</item>
+        <item>Mosca Branca</item>
+        <item>Mosca dos Fungos</item>
+        <item>Queimadura Solar</item>
+        <item>Raiz Podre</item>
+    </string-array>
+    <string-array name="Descricao">
+        <item>O ácaro-aranha (Tatranychus urticae) são pragas menores que a cabeça de um alfinete e de difícil identificação. São artrópodes do grupo dos aracnídeos (semelhantes às aranhas), possuindo 4 pares de patas e variando de coloração de acordo com a espécie (vermelho, amarelo, verde ou marrom).
+A presença desses ácaros nas plantas as torna suscetíveis a outras doenças, pois se reproduzem com facilidade, podendo causar infestação grave em dias ou semanas.
+</item>
+        <item>Muitos besouros (Ordem Coleoptera) se alimentam de uma grande variedade de plantas em ambientes interno, onde os insetos adultos alimentam-se das folhas e suas larvas podem causar danos ao se alimentar das raízes das plantas, podendo provocar danos e até a morte da planta. Plantas com alto grau de infestação apresentam crescimento atrofiado, folhas amarelas e murchas.
+Como prevenção deve-se colocar plantas recém adquiridas em quarentena ou remover plantas que possam apresentar essas pragas do contato com o restante. Verificar as folhas das plantas para ver se estão sendo danificadas e evitar o uso de inseticidas que possam matar os predadores naturais das larvas presentes no solo.
+</item>
+        <item>São comuns em ambientes internos e infestações em plantas podem ser frequentes. Esses insetos (Família dos Pseudococcidae) são minúsculos e de corpo mole, onde as fêmeas são cobertas por uma substância branca e ficam localizadas geralmente nos caules e nódulos das folhas, e ao se alimentarem de seiva, liberam um resíduo líquido adocicado e pegajoso.
+A prevenção se da ao isolar plantas novas e verificar se possuem sinais de infestação, e ao sinal da doença, podem ser utilizados inseticidas compostos por substâncias naturais.
+</item>
+        <item>Ferrugem é o nome comum de um grande grupo de doenças fúngicas (Ordem Pucciniales), cujos sintomas típicos são manchas foliares de coloração amarelada, marrom ou cobre nas superfícies superior ou inferior das folhas, semelhante a ferro enferrujado.
+Para o cuidado de plantas afetadas é importante remover todas as folhas com sinais da doença e realizar a aplicação de antifúngicos naturais ou caseiros como forma de prevenção.
+</item>
+        <item>A fumagina é um tipo de fungo (Capnodium sp) que cresce nas secreções residuais em plantas que já estão infestadas por outras pragas, como cochonilhas ou pulgões. Sua coloração é preta ou castanho escuro e bem característica, recobrindo a superfície superior das folhas.
+Não existe um tratamento preventivo contra o fungo em si, porém ao realizar o combate contra outras pragas como cochonilhas, pulgões, mosca-branca etc., dificulta-se que esses fungos encontrem um local ideal em suas plantas para se desenvolverem.
+</item>
+        <item>Ocorre principalmente em condições climáticas de alta umidade e temperatura amena, podendo afetar diversas culturas. Ataca preferencialmente as folhas, mas pode ocorrer em ramos e frutos. São sintomas típicos, manchas de coloração verde-claro a amarela na parte superior da folha, e com o passar do tempo, essas manchas se tornam escuras (necróticas).
+Para tratar, elimine as folhas suspeitas ou contaminadas. Retire-as com cuidado para não infetar as outras plantas e não expandir a doença. Use ferramentas desinfetadas e assegure-se de ter as mãos limpas. Caso isso não ocorra, recorre-se a produtos químicos.
+</item>
+        <item>A mosca branca é uma praga preocupante principalmente porque é vetora de doenças que afetam diferentes culturas. Possui corpo de coloração amarelada e nas asas apresenta um tipo de “pó branco”, característico dessa espécie, que define o seu nome. Os insetos possuem um aparelho bucal sugador, usado para inserir no tecido das plantas e se alimentar da seiva, o que também prejudica as plantas.
+Para a prevenção, o melhor a se fazer é eliminar plantas hospedeiras antes do plantio e imediatamente depois da colheita, destruir os restos de cultura, fazer uso correto de inseticidas e o controle das ninfas.
+</item>
+        <item>Os mosquitos ou moscas-dos-fungos, como também são conhecidos, tem esse nome pois suas larvas se alimentam de fungos presentes no solo e na matéria orgânica, bem como das raízes e capilares das plantas. O mosquito adulto é minúsculo, com cerca de 2 a 4 mm, com asas escuras e longas antenas e um vôo meio atrapalhado.
+Para prevenir essa praga, recomenda-se utilizar adubos orgânicos sempre bem curtidos e compostados, bem como favorecer a luminosidade e a ventilação entre as plantas e vasos. Manter o ambiente e as plantas livres de sujeiras, como folhas, flores e frutos mortos, pois eles servem de substrato para fungos e mosquitos-de-fungos.
+</item>
+        <item>A queimadura abiótica se refere aos danos causados a plantas, arbustos ou árvores por uma combinação de luz solar direta e temperaturas excessivas. Esses fatores alteram a umidade nos tecidos da planta, levando inicialmente à murcha de folhas jovens e sensíveis, com a aparição de manchas amareladas e posteriormente pretas no local atingido.
+Para prevenir a queimadura, é recomendado não deixar a planta sob exposição direta do sol do meio-dia por um longo período.
+</item>
+        <item>O apodrecimento de raiz é um problema que pode ser causado por diferentes tipos de fungos, afetando árvores, arbustos e plantas. Normalmente, o problema tem início com o excesso de rega, que causa acúmulo de umidade nas raízes e cria um ambiente propício para o surgimento de fungos.
+Se a raiz estiver marrom e molenga, é preciso tratá-la para combater o apodrecimento. Apare as raízes nos pontos em que estão podres, removendo todos os pedaços mortos. É preciso cortar partes da planta também. Comece cortando as folhas amareladas ou marrons, além daquelas que estão murchas, pois como retiramos parte da raiz, ela não poderá se manter do jeito que está.
+</item>
+    </string-array>
+    <string name="entrar">Entrar</string>
+    <string name="maisQP">Mais que Plantas</string>
+    <string name="temCad">Não tenho Cadastro</string>
+</resources>
