@@ -1,0 +1,43 @@
+LOGINS / SENHAS
+
+ADMIN:
+	LOGIN: fecoelho
+	SENHA: fer1234
+	
+FUNCIONARIO:
+	LOGIN: mariasilva
+	SENHA: mar1234
+		
+CLIENTE 1: DARLAN
+	LOGIN: darsto
+	SENHA: explosao08	
+
+============================================================================================================
+
+CADASTRO DE PERGUNTA NO FAQ
+
+	PERGUNTA:
+	Em quais casos é realizado o reembolso, troca ou devolução?
+
+	RESPOSTA:
+	Existe três casos que realizamos o reembolso, devolução ou troca
+	1 – Caso o cliente tenha se arrependido da compra em até 7 dias;
+	2 – Caso a planta esteja morta, murcha ou danificada;
+	3 – Caso o prazo de entrega tenha ultrapassado os dias pré-estabelecidos.
+	Para todos os casos é necessário entrar em contato com a gente por e-mail ou WhatsApp.
+
+
+===========================================================================================================	
+CADASTRO DE PRODUTOS NA LOJA ONLINE
+
+	PRODUTO 5
+		Nome: Kokedama de Peperomia Verde
+		Preço de Custo: 20,00
+		Preço de Venda: 60,00
+		Descrição: Descrição do produto Kokedama de Peperomia Verde (Peperomia obtusifolia).
+		Estoque: 12
+		Foto: fazer upload da foto 5 na pasta scriptCadastros
+		Status: Disponível
+
+
+============================================================================================================
