@@ -1,5 +1,5 @@
 # prjAppPlantas
-# 1. Introdução: O cultivo de plantas
+# Introdução: O cultivo de plantas
 Desde as civilizaçoes antigas, o cultivo de plantas estava pesente na sociedade em diversos aspéctos:
 - Tipicamente rural; 
 - Fonte de alimentação;
