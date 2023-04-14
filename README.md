@@ -1,4 +1,4 @@
-# prjAppPlantas
+# Mais_Que_Plantas_TCC
 # Introdução: O cultivo de plantas
 Desde as civilizaçoes antigas, o cultivo de plantas estava pesente na sociedade em diversos aspéctos:
 - Tipicamente rural; 
